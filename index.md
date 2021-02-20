@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+抖音面试:
 
-You can use the [editor on GitHub](https://github.com/helloxyuer/career.GitHub.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+condova原理  如何交互
+不同机型尺寸适配
+rem和em的区别
+小程序和hybird的区别 
+渐进式框架   get set watcher何时创建
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+css scoped原理
+https://zhuanlan.zhihu.com/p/111495177
 
-### Markdown
+跨站攻击原理  如何防御
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+缓存策略  强缓存  协商缓存 
+https://segmentfault.com/a/1190000015816331
 
-```markdown
-Syntax highlighted code block
+常用请求头
+http://tools.jb51.net/table/http_header
 
-# Header 1
-## Header 2
-### Header 3
+vue 渐进式框架
+loader plugin 
+如何手写一个plugin
+常用的plugin有哪些
+vue-cli
+网站优化策略
 
-- Bulleted
-- List
+node的事件循环和网页的事件循环区别
+https://www.cnblogs.com/xieoxie3000question/articles/13490832.html
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/helloxyuer/career.GitHub.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+回流重绘有什么区别，优化（回流必重绘）
+https://www.cnblogs.com/lpl666/p/10545042.html
