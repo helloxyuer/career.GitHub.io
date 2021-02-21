@@ -15,6 +15,9 @@
 
 [css scoped原理](https://zhuanlan.zhihu.com/p/111495177)
 
+[同源策略](http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)
+
+
 [跨站攻击原理CSRF  如何防御](https://blog.csdn.net/stpeace/article/details/53512283)
 
 B网站利用A网站的cookies信息向A网站发送操作请求,漏洞原因是A网站仅凭cookies做用户校验。预防策略是添加不存储在cookies中的校验参数。如referer的源校验(缺点:referer存在兼容性且可能会被修改),请求头的token添加。
