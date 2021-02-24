@@ -1,0 +1,23 @@
+# 强缓存 
+## 响应头 Expires (http1.0)
+返回过期时间 缺陷:要求客户端与服务器时间一致
+
+## 响应头 Cache-Control (http1.1)
+返回缓存策略
+
+注意，在HTTP/1.1中，当首部字段Cache-Control有指定s-maxage或max-age指令，比起首部字段Expires，会优先处理s-maxage或max-age。
+另外下面列几个Cache-Control的常用指令：
+* no-cache：含义是不使用本地缓存，需要使用协商缓存，也就是先与服务器确认缓存是否可用。
+* no-store：禁用缓存。
+* public：表明其他用户也可使用缓存，适用于公共缓存服务器的情况。
+* private：表明只有特定用户才能使用缓存，适用于公共缓存服务器的情况。
+
+# 协商缓存
+
+
+
+|  响应头   | 请求头  | 说明 |
+|  ----  | ----  | ----  |
+| Cache-Control  |no-cache| 每次请求都会重新询问 |
+| Last-Modified  | Last-Modified | 上次文件修改时间,文件单纯修改时间会使缓存失效，无法监控秒级变化 |
+| ETag  | If-None-Match | 文件变动etag值 |
