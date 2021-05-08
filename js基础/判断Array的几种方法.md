@@ -1,4 +1,4 @@
-# 方法一:
+### 方法一:
 
 ```javaScript
 function isArray(val){
@@ -7,7 +7,7 @@ function isArray(val){
 ```
 缺:其它frame的Array创建的数组会判断为false
 
-# 方法二:
+### 方法二:
 
 ```javaScript
 function isArray(val){
@@ -16,7 +16,7 @@ function isArray(val){
 ```
 缺:同上
 
-# 方法三:
+### 方法三:
 
 ```javaScript
 function isArray(val){
@@ -24,7 +24,7 @@ function isArray(val){
 }
 ```
 
-# 方法四:
+### 方法四:
 
 ```javaScript
 function isArray(val){
