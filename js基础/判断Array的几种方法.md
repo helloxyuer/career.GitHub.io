@@ -20,7 +20,7 @@ function isArray(val){
 
 ```javaScript
 function isArray(val){
-    return Object.prototype.toString.call(val);
+    return return Object.prototype.toString.call(val) === '[object Array]';
 }
 ```
 
