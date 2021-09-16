@@ -1,7 +1,7 @@
 ```
 
 const MyClass = class Me {
-    //实例对象自身的属性都定义在类的头部
+    ** //实例对象自身的属性都定义在类的头部
     age = '12'
 
     //一个类必须有constructor()方法，如果没有显式定义，一个空的constructor()方法会被默认添加。
